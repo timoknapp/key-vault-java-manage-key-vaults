@@ -9,7 +9,11 @@ extensions:
   platforms: java
 ---
 
-# Getting Started with Keyvault - Manage Key Vault - in Java #
+# Getting Started with Keyvault - Manage Key Vault - in Java 
+
+## Environment Variables
+
+Setup the following environment variables: `AZURE_SUBSCRIPTION_ID`, `AZURE_TENANT_ID`, `AZURE_CLIENT_ID` (needs to be created as App registration within Azure AD).
 
 
   Azure Key Vault sample for managing key vaults -
