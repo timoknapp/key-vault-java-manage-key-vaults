@@ -27,27 +27,27 @@
           <target>1.8</target>
         </configuration>
       </plugin>
-      <plugin>
-        <artifactId>maven-assembly-plugin</artifactId>
-        <executions>
-          <execution>
-            <phase>package</phase>
-            <goals>
-              <goal>attached</goal>
-            </goals>
-            <configuration>
-              <descriptorRefs>
-                <descriptorRef>jar-with-dependencies</descriptorRef>
-              </descriptorRefs>
-              <archive>
-                <manifest>
-                  <mainClass>com.azure.resourcemanager.keyvault.samples.ManageKeyVault.java</mainClass>
-                </manifest>
-              </archive>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
+<!--      <plugin>-->
+<!--        <artifactId>maven-assembly-plugin</artifactId>-->
+<!--        <executions>-->
+<!--          <execution>-->
+<!--            <phase>package</phase>-->
+<!--            <goals>-->
+<!--              <goal>attached</goal>-->
+<!--            </goals>-->
+<!--            <configuration>-->
+<!--              <descriptorRefs>-->
+<!--                <descriptorRef>jar-with-dependencies</descriptorRef>-->
+<!--              </descriptorRefs>-->
+<!--              <archive>-->
+<!--                <manifest>-->
+<!--                  <mainClass>com.azure.resourcemanager.keyvault.samples.ManageKeyVault.java</mainClass>-->
+<!--                </manifest>-->
+<!--              </archive>-->
+<!--            </configuration>-->
+<!--          </execution>-->
+<!--        </executions>-->
+<!--      </plugin>-->
     </plugins>
   </build>
   <dependencies>
